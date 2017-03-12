@@ -1,4 +1,12 @@
-languageCode = "en-us"
+languageCode = "ja-jp"
 title = "My New Hugo Site"
-baseURL = "https://flashdesignfactory.github.io"
+baseURL = "https://flashdesignfactory.github.io/flashdesignfactory.github.io"
 canonifyurls = true
+
+[params]
+  description = "This is yourblog"
+  author = "okd"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
