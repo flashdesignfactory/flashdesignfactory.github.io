@@ -1,3 +1,4 @@
 languageCode = "en-us"
 title = "My New Hugo Site"
 baseURL = "https://flashdesignfactory.github.io"
+canonifyurls = true
