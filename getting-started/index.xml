@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>okd グルメ</title>
-    <link>https://flashdesignfactory.github.io/index.xml</link>
-    <description>Recent content on okd グルメ</description>
+    <title>Getting-starteds on okd グルメ</title>
+    <link>https://flashdesignfactory.github.io/getting-started/index.xml</link>
+    <description>Recent content in Getting-starteds on okd グルメ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>Released under the MIT license</copyright>
     <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
-    <atom:link href="https://flashdesignfactory.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://flashdesignfactory.github.io/getting-started/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Getting started</title>
@@ -234,193 +234,6 @@ accounts to the drawer by setting the variables &lt;code&gt;github&lt;/code&gt; 
   smartDashes = true
   plainIDAnchors = true
 &lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Adding content</title>
-      <link>https://flashdesignfactory.github.io/adding-content/</link>
-      <pubDate>Wed, 09 Mar 2016 19:56:50 +0100</pubDate>
-      
-      <guid>https://flashdesignfactory.github.io/adding-content/</guid>
-      <description>
-
-&lt;h2 id=&#34;hello-mee&#34;&gt;Hello Mee&lt;/h2&gt;
-
-&lt;h2 id=&#34;hello-world&#34;&gt;Hello world&lt;/h2&gt;
-
-&lt;p&gt;Let&amp;rsquo;s create our first content file for your documentation. Open a terminal and add the following command for each new file you want to add. Replace &lt;code&gt;&amp;lt;section-name&amp;gt;&lt;/code&gt; with a general term that describes your document in detail.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;hugo new &amp;lt;section-name&amp;gt;/filename.md
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Visitors of your website will find the final document under &lt;code&gt;www.example.com/&amp;lt;section-name&amp;gt;/filename/&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Since it&amp;rsquo;s possible to have multiple content files in the same section I recommend to create at least one &lt;code&gt;index.md&lt;/code&gt; file per section. This ensures that users will find an index page under &lt;code&gt;www.example.com/&amp;lt;section-name&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;homepage&#34;&gt;Homepage&lt;/h2&gt;
-
-&lt;p&gt;To add content to the homepage you need to add a small indicator to the frontmatter of the content file:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;type: index
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Otherwise the theme will not be able to find the corresponding content file.&lt;/p&gt;
-
-&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of contents&lt;/h2&gt;
-
-&lt;p&gt;You maybe noticed that the menu on the left contains a small table of contents of the current page. All &lt;code&gt;&amp;lt;h2&amp;gt;&lt;/code&gt; tags (&lt;code&gt;## Headline&lt;/code&gt; in Markdown) will be added automatically.&lt;/p&gt;
-
-&lt;h2 id=&#34;admonitions&#34;&gt;Admonitions&lt;/h2&gt;
-
-&lt;p&gt;Admonition is a handy feature that adds block-styled side content to your documentation, for example hints, notes or warnings. It can be enabled by using the corresponding &lt;a href=&#34;http://gohugo.io/extras/shortcodes/&#34;&gt;shortcodes&lt;/a&gt; inside your content:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;{{&amp;lt; note title=&amp;quot;Note&amp;quot; &amp;gt;}}
-Nothing to see here, move along.
-{{&amp;lt; /note &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This will print the following block:&lt;/p&gt;
-
-&lt;div class=&#34;admonition note&#34;&gt;
-&lt;p class=&#34;admonition-title&#34;&gt;Note&lt;/p&gt;
-&lt;p&gt;Nothing to see here, move along.&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The shortcode adds a neutral color for the note class and a red color for the warning class. You can also add a custom title:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-go&#34;&gt;{{&amp;lt; warning title=&amp;quot;Don&#39;t try this at home&amp;quot; &amp;gt;}}
-Nothing to see here, move along.
-{{&amp;lt; /warning &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;This will print the following block:&lt;/p&gt;
-
-&lt;div class=&#34;admonition warning&#34;&gt;
-&lt;p class=&#34;admonition-title&#34;&gt;Don&amp;#39;t try this at home&lt;/p&gt;
-&lt;p&gt;Nothing to see here, move along.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Roadmap</title>
-      <link>https://flashdesignfactory.github.io/roadmap/</link>
-      <pubDate>Wed, 09 Mar 2016 20:08:11 +0100</pubDate>
-      
-      <guid>https://flashdesignfactory.github.io/roadmap/</guid>
-      <description>
-
-&lt;p&gt;Quo vadis? The port of the original &lt;a href=&#34;https://github.com/squidfunk/mkdocs-material&#34;&gt;Material theme&lt;/a&gt; has replicated nearly all of its features. A few are still missing but I&amp;rsquo;ve good news: the Hugo community is actively working on this issues. Maybe with the next release of Hugo we can abandon this list. Stay tuned.&lt;/p&gt;
-
-&lt;h2 id=&#34;localization&#34;&gt;Localization&lt;/h2&gt;
-
-&lt;p&gt;Currently, it is possible to collect all strings in a single place for easy customization. However, this only enables you to define all strings in a single language. This approach is quite limiting in terms of localization support. Therefore, I decided to wait for a native integration. This way we can avoid a second setup of all strings in your website.&lt;/p&gt;
-
-&lt;p&gt;Keep an eye on &lt;a href=&#34;https://github.com/spf13/hugo/issues/1734&#34;&gt;#1734&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;search&#34;&gt;Search&lt;/h2&gt;
-
-&lt;p&gt;Beside third-party services, some hacky workarounds and Grunt-/Gulp-based scripts that only require unnecessary dependencies, future versions of Hugo will support the generation of a content index as a core feature.&lt;/p&gt;
-
-&lt;p&gt;This approach plays well with this theme since MkDocs does the same.&lt;/p&gt;
-
-&lt;p&gt;Keep an eye on &lt;a href=&#34;https://github.com/spf13/hugo/pull/1853&#34;&gt;#1853&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;contributing&#34;&gt;Contributing&lt;/h2&gt;
-
-&lt;p&gt;Did you found an bug or you would like to suggest a new feature? I&amp;rsquo;m open for feedback. Please open a new &lt;a href=&#34;https://github.com/digitalcraftsman/hugo-material-docs/issues&#34;&gt;issue&lt;/a&gt; and let me know.&lt;/p&gt;
-
-&lt;p&gt;You&amp;rsquo;re also welcome to contribute with &lt;a href=&#34;https://github.com/digitalcraftsman/hugo-material-docs/pulls&#34;&gt;pull requests&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>License</title>
-      <link>https://flashdesignfactory.github.io/license/</link>
-      <pubDate>Wed, 09 Mar 2016 20:10:46 +0100</pubDate>
-      
-      <guid>https://flashdesignfactory.github.io/license/</guid>
-      <description>&lt;p&gt;Copyright &amp;copy; 2016 Digitalcraftsman &lt;a href=&#34;mailto:digitalcraftsman@protonmail.com&#34;&gt;digitalcraftsman@protonmail.com&lt;/a&gt;&lt;br&gt;
-Copyright &amp;copy; 2016 Martin Donath &lt;a href=&#34;mailto:martin.donath@squidfunk.com&#34;&gt;martin.donath@squidfunk.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the &amp;ldquo;Software&amp;rdquo;), to
-deal in the Software without restriction, including without limitation the
-rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
-sell copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:&lt;/p&gt;
-
-&lt;p&gt;The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.&lt;/p&gt;
-
-&lt;p&gt;THE SOFTWARE IS PROVIDED &amp;ldquo;AS IS&amp;rdquo;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
-IN THE SOFTWARE.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Material for Hugo</title>
-      <link>https://flashdesignfactory.github.io/</link>
-      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
-      
-      <guid>https://flashdesignfactory.github.io/</guid>
-      <description>
-
-&lt;h2 id=&#34;beautiful-documentation&#34;&gt;Beautiful documentation&lt;/h2&gt;
-
-&lt;p&gt;Material is a theme for &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;, a fast and flexible static site generator. It is built using Google&amp;rsquo;s &lt;a href=&#34;https://www.google.com/design/spec/material-design/introduction.html&#34;&gt;material design&lt;/a&gt;
-guidelines, fully responsive, optimized for touch and pointer devices as well
-as all sorts of screen sizes.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://flashdesignfactory.github.io/images/screen.png&#34; alt=&#34;Material Screenshot&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Material is very lightweight – it is built from scratch using Javascript and
-CSS that weighs less than 30kb (minified, gzipped and excluding Google Fonts
-and Analytics). Yet, it is highly customizable and degrades gracefully in older
-browsers.&lt;/p&gt;
-
-&lt;h2 id=&#34;quick-start&#34;&gt;Quick start&lt;/h2&gt;
-
-&lt;p&gt;Install with &lt;code&gt;git&lt;/code&gt;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-sh&#34;&gt;git clone git@github.com:digitalcraftsman/hugo-material-docs.git themes/hugo-material-docs
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Beautiful, readable and very user-friendly design based on Google&amp;rsquo;s material
-design guidelines, packed in a full responsive template with a well-defined
-and &lt;a href=&#34;https://flashdesignfactory.github.io/getting-started/#changing-the-color-palette&#34;&gt;easily customizable color palette&lt;/a&gt;, great typography, as well as a
-beautiful search interface and footer.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Well-tested and optimized Javascript and CSS including a cross-browser
-fixed/sticky header, a drawer that even works without Javascript using
-the &lt;a href=&#34;http://tutorialzine.com/2015/08/quick-tip-css-only-dropdowns-with-the-checkbox-hack/&#34;&gt;checkbox hack&lt;/a&gt; with fallbacks, responsive tables that scroll when
-the screen is too small and well-defined print styles.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Extra configuration options like a &lt;a href=&#34;https://flashdesignfactory.github.io/getting-started/#adding-a-logo&#34;&gt;project logo&lt;/a&gt;, links to the authors
-&lt;a href=&#34;https://flashdesignfactory.github.io/getting-started/#adding-a-github-and-twitter-account&#34;&gt;GitHub and Twitter accounts&lt;/a&gt; and display of the amount of stars the
-project has on GitHub.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Web application capability on iOS – when the page is saved to the homescreen,
-it behaves and looks like a native application.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;See the &lt;a href=&#34;https://flashdesignfactory.github.io/getting-started/&#34;&gt;getting started guide&lt;/a&gt; for instructions how to get
-it up and running.&lt;/p&gt;
-
-&lt;h2 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h2&gt;
-
-&lt;p&gt;Last but not least a big thank you to &lt;a href=&#34;https://github.com/squidfunk&#34;&gt;Martin Donath&lt;/a&gt;. He created the original &lt;a href=&#34;https://github.com/squidfunk/mkdocs-material&#34;&gt;Material theme&lt;/a&gt; for Hugo&amp;rsquo;s companion &lt;a href=&#34;http://www.mkdocs.org/&#34;&gt;MkDocs&lt;/a&gt;. This port wouldn&amp;rsquo;t be possible without him.&lt;/p&gt;
-
-&lt;p&gt;Furthermore, thanks to &lt;a href=&#34;https://gihub.com/spf13&#34;&gt;Steve Francia&lt;/a&gt; for creating Hugo and the &lt;a href=&#34;https://github.com/spf13/hugo/graphs/contributors&#34;&gt;awesome community&lt;/a&gt; around the project.&lt;/p&gt;
 </description>
     </item>
     
